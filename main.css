@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.container {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 14px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(29, 29, 112);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+button:hover {
+    background-color: rgb(53, 53, 138);
+}
+
+ul li {
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 20px;
+    text-align: left;
+    list-style-position: inside;
+    cursor: pointer;
+}
+
+.riscado{
+    text-decoration:line-through;
+}

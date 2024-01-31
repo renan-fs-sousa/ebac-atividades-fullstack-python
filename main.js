@@ -7,5 +7,5 @@ function Saudacao(nome) {
 }
 const resultadoMultiplicacao = Multiplicacao(5, 10);
 const mostraSaudacao = Saudacao("Renan");
-console.log("Resultado da multiplicação:", resultadoMultiplicacao);
+console.log("Resultado da multiplicação: ", resultadoMultiplicacao);
 console.log(mostraSaudacao);
